@@ -41,6 +41,6 @@ app.post('/add',function(req,res){
   const student  = req.body;
   console.log('Adding new student: ', student);
 
-  res.end( JSON.stringify("stiudents updated successfully"));
+  res.end( JSON.stringify("students updated successfully"));
 
 });
